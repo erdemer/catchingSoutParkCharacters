@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
            var intent = Intent(applicationContext,GameActivity::class.java)
             intent.putExtra("srcId",list[i].imageSrcId)
             startActivity(intent)
-            finish()
+           // finish()
         })
 
     }
