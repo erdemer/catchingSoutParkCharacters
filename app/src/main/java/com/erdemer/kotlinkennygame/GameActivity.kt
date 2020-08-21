@@ -69,7 +69,7 @@ class GameActivity : AppCompatActivity() {
                 alertDialog.setMessage("Restart The Game?")
                 alertDialog.setPositiveButton("Yes",  { dialogInterface, i ->
                     val intent  = intent
-                    //finish()
+                    finish()
                     startActivity(intent)
                 })
                 alertDialog.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int ->
